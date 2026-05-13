@@ -1,0 +1,73 @@
+Commercial IT Transformation Report
+===================================
+
+Portfolio KPIs
+--------------
+Projects analyzed: 72
+Total pipeline value: 7,191,000.00 EUR
+Total expected margin: 3,379,000.00 EUR
+Average margin: 47.0%
+Monthly hours saved: 4107.2
+Annual productivity value: 2,858,611.20 EUR
+Average priority score: 83.4
+
+Recommendation Mix
+------------------
+Lead project: 20
+Prepare proposal: 39
+Run discovery workshop: 11
+Monitor backlog: 2
+
+Category Pipeline Summary
+-------------------------
+Commercial IT: 11 projects | value 1,444,000.00 EUR | avg. score 86.0
+ERP & Data: 15 projects | value 1,357,000.00 EUR | avg. score 76.5
+Process Digitization: 21 projects | value 2,741,000.00 EUR | avg. score 85.0
+Sales & Consulting: 12 projects | value 770,000.00 EUR | avg. score 85.9
+Sales Enablement: 13 projects | value 879,000.00 EUR | avg. score 84.2
+
+Service Action Mix
+------------------
+Immediate SLA improvement workshop: 3
+Prioritize monitoring report: 19
+Keep in standard reporting: 2
+
+Top Project Recommendations
+---------------------------
+P007 | Maintenance Workflow Automation | Stuttgart Retail Group | Score 100 | Lead project | Payback 8.3 months
+P018 | Maintenance Workflow Automation | Alpine Healthcare Network | Score 100 | Lead project | Payback 8.5 months
+P057 | Maintenance Workflow Automation | Municipal Housing West | Score 100 | Lead project | Payback 6.3 months
+P051 | Field Service Planning Workflow | AeroParts Systems | Score 98.9 | Lead project | Payback 17.4 months
+P059 | Service Ticket KPI Reporting | PharmaCold Logistics | Score 97.3 | Lead project | Payback 12.0 months
+
+Service Risk View
+-----------------
+Municipal Housing West | Risk 69.6 | SLA breach rate 10.8% | avg. monthly downtime 10.8 h | Immediate SLA improvement workshop
+Airport Retail Services | Risk 66.2 | SLA breach rate 8.9% | avg. monthly downtime 10.3 h | Immediate SLA improvement workshop
+Alpine Healthcare Network | Risk 66.2 | SLA breach rate 8.5% | avg. monthly downtime 10.2 h | Immediate SLA improvement workshop
+Bavaria Food Production | Risk 64.5 | SLA breach rate 12.9% | avg. monthly downtime 9.3 h | Prioritize monitoring report
+Capital Event Venues | Risk 63.1 | SLA breach rate 12.4% | avg. monthly downtime 8.5 h | Prioritize monitoring report
+Metro Campus Services | Risk 63.0 | SLA breach rate 8.3% | avg. monthly downtime 9.5 h | Prioritize monitoring report
+EduTech Campus Group | Risk 62.8 | SLA breach rate 11.5% | avg. monthly downtime 9.4 h | Prioritize monitoring report
+DataPark Colocation | Risk 61.8 | SLA breach rate 8.4% | avg. monthly downtime 10.3 h | Prioritize monitoring report
+Helio Manufacturing | Risk 57.6 | SLA breach rate 9.3% | avg. monthly downtime 7.2 h | Prioritize monitoring report
+Rhine Office Properties | Risk 57.2 | SLA breach rate 9.3% | avg. monthly downtime 8.3 h | Prioritize monitoring report
+GreenCity Utilities | Risk 57.1 | SLA breach rate 8.8% | avg. monthly downtime 9.0 h | Prioritize monitoring report
+Northline Logistics | Risk 56.8 | SLA breach rate 12.2% | avg. monthly downtime 6.9 h | Prioritize monitoring report
+Prime Shopping Centers | Risk 55.1 | SLA breach rate 7.7% | avg. monthly downtime 9.1 h | Prioritize monitoring report
+SmartFactory Dresden | Risk 54.4 | SLA breach rate 7.6% | avg. monthly downtime 8.6 h | Prioritize monitoring report
+Central Rail Facilities | Risk 53.8 | SLA breach rate 7.8% | avg. monthly downtime 7.8 h | Prioritize monitoring report
+Urban Mobility Services | Risk 53.4 | SLA breach rate 9.9% | avg. monthly downtime 8.0 h | Prioritize monitoring report
+PharmaCold Logistics | Risk 50.2 | SLA breach rate 8.7% | avg. monthly downtime 7.3 h | Prioritize monitoring report
+MediLab Diagnostics | Risk 49.7 | SLA breach rate 7.9% | avg. monthly downtime 6.3 h | Prioritize monitoring report
+Hanse Hotel Alliance | Risk 48.9 | SLA breach rate 9.2% | avg. monthly downtime 7.3 h | Prioritize monitoring report
+NordTech Electronics | Risk 46.6 | SLA breach rate 7.6% | avg. monthly downtime 6.3 h | Prioritize monitoring report
+Stuttgart Retail Group | Risk 46.5 | SLA breach rate 6.3% | avg. monthly downtime 7.5 h | Prioritize monitoring report
+AeroParts Systems | Risk 46.4 | SLA breach rate 8.5% | avg. monthly downtime 6.2 h | Prioritize monitoring report
+SecureBank Operations | Risk 43.0 | SLA breach rate 6.6% | avg. monthly downtime 6.5 h | Keep in standard reporting
+Public Services Munich | Risk 40.6 | SLA breach rate 6.7% | avg. monthly downtime 6.5 h | Keep in standard reporting
+
+Application Relevance
+---------------------
+Bosch Building Technologies: shows Commercial IT, ERP/data thinking, productivity transparency and workflow digitization.
+Fujitsu Sales & Consulting: shows proposal prioritization, customer readiness, modernization potential and consulting-style recommendations.
