@@ -1,0 +1,73 @@
+project_id,customer_id,project_name,category,phase,estimated_value_eur,estimated_cost_eur,manual_hours_per_month,automated_hours_per_month,implementation_weeks,consulting_fit,delivery_risk
+P001,C001,Spare Parts Master Data Cleanup,ERP & Data,idea,65000,42000,84.5,29.6,8,3,3
+P002,C001,Proposal Pipeline Scoring,Sales Enablement,delivery,100000,47000,39.8,12.8,14,5,1
+P003,C001,Maintenance Workflow Automation,Process Digitization,proposal,122000,79000,155.4,69.3,9,5,3
+P004,C002,Offer Calculation Automation,Sales Enablement,idea,44000,25000,49.9,15.4,9,4,3
+P005,C002,Spare Parts Master Data Cleanup,ERP & Data,delivery,67000,33000,72.1,34.8,10,3,2
+P006,C002,Contract Data Quality Review,ERP & Data,proposal,112000,53000,48.1,19.9,9,4,1
+P007,C003,Maintenance Workflow Automation,Process Digitization,workshop,103000,51000,205.4,99.5,19,5,2
+P008,C003,Proposal Pipeline Scoring,Sales Enablement,delivery,79000,41000,79.4,31.2,13,5,1
+P009,C003,Offer Calculation Automation,Sales Enablement,delivery,62000,36000,51.4,20.9,12,5,2
+P010,C004,Maintenance Workflow Automation,Process Digitization,delivery,144000,89000,172.8,60.7,17,5,3
+P011,C004,Customer Readiness Assessment,Sales & Consulting,proposal,79000,43000,29.1,9.5,11,5,1
+P012,C004,Field Service Planning Workflow,Process Digitization,proposal,94000,59000,108.2,50.2,17,3,1
+P013,C005,Customer Readiness Assessment,Sales & Consulting,idea,35000,19000,69.6,27.2,11,4,2
+P014,C005,Service Ticket KPI Reporting,Commercial IT,proposal,137000,61000,65.6,25.0,8,4,1
+P015,C005,Transformation Workshop Package,Sales & Consulting,proposal,87000,35000,36.4,17.0,17,4,1
+P016,C006,Offer Calculation Automation,Sales Enablement,workshop,72000,45000,96.0,43.4,13,5,1
+P017,C006,Proposal Pipeline Scoring,Sales Enablement,proposal,73000,34000,43.1,20.7,11,5,2
+P018,C006,Maintenance Workflow Automation,Process Digitization,proposal,99000,55000,180.6,69.3,8,5,2
+P019,C007,Field Service Planning Workflow,Process Digitization,proposal,140000,73000,83.4,42.7,16,5,2
+P020,C007,Contract Data Quality Review,ERP & Data,idea,97000,53000,55.6,23.0,8,3,3
+P021,C007,Spare Parts Master Data Cleanup,ERP & Data,delivery,98000,58000,85.4,32.2,7,3,1
+P022,C008,Field Service Planning Workflow,Process Digitization,workshop,183000,106000,167.2,79.2,17,5,2
+P023,C008,Offer Calculation Automation,Sales Enablement,idea,60000,32000,71.5,21.8,11,5,3
+P024,C008,SLA Performance Analytics,Commercial IT,workshop,156000,62000,143.0,64.6,14,4,3
+P025,C009,Maintenance Workflow Automation,Process Digitization,workshop,107000,69000,144.4,65.8,9,4,3
+P026,C009,Spare Parts Master Data Cleanup,ERP & Data,workshop,87000,53000,59.9,28.5,12,3,3
+P027,C009,Customer Readiness Assessment,Sales & Consulting,delivery,53000,29000,70.0,24.3,17,5,1
+P028,C010,Maintenance Workflow Automation,Process Digitization,proposal,114000,59000,154.4,62.7,11,4,4
+P029,C010,Spare Parts Master Data Cleanup,ERP & Data,delivery,100000,62000,108.7,45.4,12,4,2
+P030,C010,Field Service Planning Workflow,Process Digitization,delivery,139000,83000,117.2,37.3,10,4,3
+P031,C011,Proposal Pipeline Scoring,Sales Enablement,proposal,71000,42000,77.9,32.5,17,4,2
+P032,C011,SLA Performance Analytics,Commercial IT,workshop,193000,107000,171.1,78.9,8,5,3
+P033,C011,Field Service Planning Workflow,Process Digitization,workshop,162000,101000,177.2,80.4,6,3,1
+P034,C012,Transformation Workshop Package,Sales & Consulting,proposal,44000,22000,65.2,20.2,18,5,1
+P035,C012,Service Ticket KPI Reporting,Commercial IT,idea,124000,63000,101.7,47.7,9,4,2
+P036,C012,Maintenance Workflow Automation,Process Digitization,workshop,185000,96000,183.1,59.5,15,5,2
+P037,C013,Proposal Pipeline Scoring,Sales Enablement,proposal,86000,44000,75.0,32.8,7,5,2
+P038,C013,Service Ticket KPI Reporting,Commercial IT,proposal,123000,63000,77.8,36.9,18,4,1
+P039,C013,Customer Readiness Assessment,Sales & Consulting,idea,94000,46000,59.4,23.4,13,5,1
+P040,C014,Customer Readiness Assessment,Sales & Consulting,proposal,88000,49000,44.7,15.0,9,5,2
+P041,C014,Contract Data Quality Review,ERP & Data,delivery,97000,52000,53.3,18.6,8,4,2
+P042,C014,Field Service Planning Workflow,Process Digitization,proposal,172000,86000,101.0,48.4,15,4,2
+P043,C015,Contract Data Quality Review,ERP & Data,workshop,114000,53000,94.0,36.2,6,4,1
+P044,C015,Maintenance Workflow Automation,Process Digitization,idea,159000,79000,115.6,51.5,19,4,4
+P045,C015,Proposal Pipeline Scoring,Sales Enablement,workshop,52000,27000,37.5,13.3,15,5,2
+P046,C016,Spare Parts Master Data Cleanup,ERP & Data,delivery,82000,46000,59.0,24.3,18,2,1
+P047,C016,Field Service Planning Workflow,Process Digitization,proposal,95000,48000,86.9,44.7,16,4,3
+P048,C016,Customer Readiness Assessment,Sales & Consulting,workshop,41000,23000,64.9,33.7,15,5,2
+P049,C017,Proposal Pipeline Scoring,Sales Enablement,proposal,45000,27000,58.1,24.1,10,5,2
+P050,C017,Maintenance Workflow Automation,Process Digitization,workshop,105000,66000,163.8,62.8,18,4,3
+P051,C017,Field Service Planning Workflow,Process Digitization,idea,138000,65000,102.8,38.3,15,5,1
+P052,C018,Spare Parts Master Data Cleanup,ERP & Data,proposal,90000,48000,100.3,30.1,11,4,2
+P053,C018,Maintenance Workflow Automation,Process Digitization,proposal,137000,66000,141.3,66.7,15,5,4
+P054,C018,Offer Calculation Automation,Sales Enablement,workshop,64000,33000,53.1,18.5,7,5,2
+P055,C019,Service Ticket KPI Reporting,Commercial IT,workshop,77000,32000,71.7,29.2,9,5,3
+P056,C019,Spare Parts Master Data Cleanup,ERP & Data,workshop,59000,30000,56.2,29.2,16,3,2
+P057,C019,Maintenance Workflow Automation,Process Digitization,proposal,85000,42000,168.4,54.1,12,5,2
+P058,C020,Transformation Workshop Package,Sales & Consulting,proposal,92000,44000,73.6,30.4,8,5,1
+P059,C020,Service Ticket KPI Reporting,Commercial IT,delivery,133000,64000,152.4,60.5,18,4,1
+P060,C020,Proposal Pipeline Scoring,Sales Enablement,workshop,71000,38000,77.4,37.9,13,5,1
+P061,C021,Transformation Workshop Package,Sales & Consulting,workshop,41000,21000,55.7,21.6,6,5,1
+P062,C021,Service Ticket KPI Reporting,Commercial IT,delivery,133000,70000,127.7,52.3,6,4,2
+P063,C021,Contract Data Quality Review,ERP & Data,workshop,103000,54000,102.1,32.3,10,5,2
+P064,C022,Maintenance Workflow Automation,Process Digitization,workshop,174000,111000,200.5,67.4,7,5,4
+P065,C022,Customer Readiness Assessment,Sales & Consulting,proposal,70000,28000,67.5,21.8,11,5,2
+P066,C022,Spare Parts Master Data Cleanup,ERP & Data,idea,80000,50000,123.2,51.1,15,3,2
+P067,C023,Field Service Planning Workflow,Process Digitization,proposal,84000,45000,75.4,38.6,11,5,2
+P068,C023,Service Ticket KPI Reporting,Commercial IT,proposal,92000,39000,108.0,37.1,17,4,2
+P069,C023,Contract Data Quality Review,ERP & Data,workshop,106000,64000,75.1,38.8,8,3,3
+P070,C024,Customer Readiness Assessment,Sales & Consulting,delivery,46000,20000,47.4,15.8,16,5,1
+P071,C024,SLA Performance Analytics,Commercial IT,delivery,195000,83000,206.6,98.6,9,5,3
+P072,C024,Service Ticket KPI Reporting,Commercial IT,workshop,81000,39000,75.6,31.0,11,4,2

@@ -1,0 +1,25 @@
+customer_id,name,industry,region,security_systems,annual_revenue_eur,strategic_priority
+C001,Metro Campus Services,Building Operations,South,58,840000,5
+C002,Helio Manufacturing,Manufacturing,West,41,690000,4
+C003,Stuttgart Retail Group,Retail,South,96,1280000,5
+C004,Northline Logistics,Logistics,North,34,540000,3
+C005,Public Services Munich,Public Sector,South,73,980000,4
+C006,Alpine Healthcare Network,Healthcare,South,88,1460000,5
+C007,Rhine Office Properties,Real Estate,West,52,760000,4
+C008,Central Rail Facilities,Transportation,Central,67,1120000,5
+C009,Hanse Hotel Alliance,Hospitality,North,39,610000,3
+C010,EduTech Campus Group,Education,East,44,520000,4
+C011,DataPark Colocation,Data Center,West,71,1750000,5
+C012,Bavaria Food Production,Food Production,South,48,720000,3
+C013,GreenCity Utilities,Energy & Utilities,East,64,1190000,5
+C014,Prime Shopping Centers,Retail Real Estate,West,83,1510000,5
+C015,MediLab Diagnostics,Life Sciences,South,37,680000,4
+C016,SecureBank Operations,Financial Services,Central,57,1380000,5
+C017,AeroParts Systems,Aerospace Supply,North,46,790000,4
+C018,Urban Mobility Services,Transportation,East,69,1030000,4
+C019,Municipal Housing West,Public Housing,West,61,870000,4
+C020,PharmaCold Logistics,Healthcare Logistics,Central,43,810000,4
+C021,NordTech Electronics,Electronics,North,55,930000,4
+C022,SmartFactory Dresden,Manufacturing,East,78,1320000,5
+C023,Capital Event Venues,Event & Venues,Central,36,590000,3
+C024,Airport Retail Services,Airport Retail,South,92,1440000,5
