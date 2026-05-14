@@ -6,6 +6,10 @@ Python-Portfolio-Projekt für Bewerbungen im dualen Studium Wirtschaftsinformati
 
 Das Projekt analysiert ein realistisches, synthetisches Commercial-IT-Projektportfolio. Es importiert Kunden-, Projekt-, Workshop- und Servicedaten in SQLite, berechnet betriebswirtschaftliche Kennzahlen und erzeugt gut lesbare Reports für Recruiter und Fachabteilungen.
 
+## GitHub-Beschreibung
+
+Python-Portfolio-Projekt zur Commercial-IT-Projektpriorisierung mit CSV, SQLite, KPI-Scoring und recruiterfreundlichen Reports.
+
 ## Kurzprofil für Recruiter
 
 - Rollenbezug: Bosch Building Technologies und Fujitsu Sales & Consulting
@@ -73,11 +77,14 @@ Report: output/reports/transformation_report.txt
 Project scores: output/reports/project_scores.csv
 ```
 
-Ein vollständiger Terminal-Mitschnitt liegt hier:
+## Beispiele im Repository
 
-```txt
-examples/terminal_output.txt
-```
+Die Beispielausgaben sind bewusst versioniert, damit Recruiter das Ergebnis direkt auf GitHub prüfen können, ohne das Projekt lokal auszuführen:
+
+- [Terminal-Mitschnitt](examples/terminal_output.txt)
+- [Beispielreport](examples/transformation_report_sample.txt)
+
+Der Terminal-Mitschnitt zeigt den Start des CLI und den Unit-Test-Lauf.
 
 Tests ausführen:
 
@@ -101,11 +108,7 @@ output/reports/transformation_report.txt
 output/reports/project_scores.csv
 ```
 
-Diese Dateien sind generiert und werden nicht versioniert. Ein versioniertes Beispiel für den Report liegt hier:
-
-```txt
-examples/transformation_report_sample.txt
-```
+Diese Dateien sind generiert und werden nicht versioniert. Ein versioniertes Beispiel für den Report liegt unter [examples/transformation_report_sample.txt](examples/transformation_report_sample.txt).
 
 ## Projektstruktur
 
