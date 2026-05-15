@@ -1,10 +1,10 @@
-# Beispiele
+# Examples
 
-Dieses Verzeichnis ist Teil des Repositorys, damit Recruiter und Fachabteilungen die Ergebnisse direkt auf GitHub ansehen können.
+This directory is part of the repository so recruiters and business stakeholders can inspect the results directly on GitHub.
 
-## Dateien
+## Files
 
-- `terminal_output.txt`: Beispielausgabe von `python3 main.py` und `python3 -m unittest`
-- `transformation_report_sample.txt`: gekürzter Beispielreport des Commercial IT Transformation Analyzers
+- `terminal_output.txt`: example output from `python3 main.py` and `python3 -m unittest`
+- `transformation_report_sample.txt`: shortened sample report from the Commercial IT Transformation Analyzer
 
-Die generierten Arbeitsdateien unter `output/` werden nicht versioniert. Dieses Verzeichnis zeigt bewusst nur stabile Beispielergebnisse.
+Generated working files under `output/` are not versioned. This directory contains stable example outputs only.

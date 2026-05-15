@@ -2,71 +2,71 @@
 
 ![Python CI](https://github.com/JojoMab/commercial-it-transformation-analyzer/actions/workflows/python-ci.yml/badge.svg)
 
-Python-Portfolio-Projekt für Bewerbungen im dualen Studium Wirtschaftsinformatik, Business Engineering sowie Sales & Consulting.
+Python portfolio project for dual-study applications in business information systems, business engineering, sales and consulting.
 
-Das Projekt analysiert ein realistisches, synthetisches Commercial-IT-Projektportfolio. Es importiert Kunden-, Projekt-, Workshop- und Servicedaten in SQLite, berechnet betriebswirtschaftliche Kennzahlen und erzeugt gut lesbare Reports für Recruiter und Fachabteilungen.
+The project analyzes a realistic synthetic Commercial IT project portfolio. It imports customer, project, workshop and service data into SQLite, calculates business KPIs and generates recruiter-friendly reports for business and IT stakeholders.
 
-## GitHub-Beschreibung
+## GitHub Description
 
-Python-Portfolio-Projekt zur Commercial-IT-Projektpriorisierung mit CSV, SQLite, KPI-Scoring und recruiterfreundlichen Reports.
+Python portfolio project for Commercial IT project prioritization with CSV, SQLite, KPI scoring and recruiter-friendly reports.
 
-## Kurzprofil für Recruiter
+## Recruiter Snapshot
 
-- Rollenbezug: Bosch Building Technologies und Fujitsu Sales & Consulting
-- Thema: Commercial IT, Prozessdigitalisierung, Projektpriorisierung und Consulting Readiness
-- Technologie: Python-Standardbibliothek, CSV, SQLite, Unit Tests
-- Datenumfang: 24 Kunden, 72 Projektchancen, 288 monatliche Service-Datensätze, 72 Workshop-Bewertungen
-- Ergebnis: Textreport, CSV-Scoring-Tabelle und SQLite-Datenbank
-- Laufzeit: unter 10 Sekunden auf einem normalen Laptop
-- Abhängigkeiten: keine externen Python-Pakete
+- Role fit: Bosch Building Technologies and Fujitsu Sales & Consulting
+- Topic: Commercial IT, process digitization, project prioritization and consulting readiness
+- Technology: Python standard library, CSV, SQLite, unit tests
+- Dataset size: 24 customers, 72 project opportunities, 288 monthly service records, 72 workshop assessments
+- Output: text report, CSV scoring table and SQLite database
+- Runtime: under 10 seconds on a normal laptop
+- Dependencies: no external Python packages
 
-## Warum das Projekt zu den Stellen passt
+## Why This Project Fits The Roles
 
-Für Bosch Building Technologies zeigt das Projekt:
+For Bosch Building Technologies, the project demonstrates:
 
-- Commercial-IT-Verständnis
-- ERP- und Datenbankbezug durch SQLite und strukturierten CSV-Import
-- Analyse von Produktivität und Wertschöpfung
-- Transparenz zu Service- und SLA-Risiken in gebäude- und sicherheitsnahen Prozessen
-- Digitalisierung von Arbeitsabläufen durch Reporting- und Workflow-Potenziale
+- Commercial IT understanding
+- ERP and database thinking through SQLite and structured CSV imports
+- productivity and value creation analysis
+- transparency for service and SLA risks in building and security-related processes
+- workflow digitization through reporting and process improvement opportunities
 
-Für Fujitsu Sales & Consulting zeigt das Projekt:
+For Fujitsu Sales & Consulting, the project demonstrates:
 
-- Bewertung von Kunden- und Consulting Readiness
-- Priorisierung von Angebots- und Transformationsprojekten
-- Analyse einer sales-relevanten Pipeline
-- Workshop-orientierte Handlungsempfehlungen
-- klare Kommunikation von Business Value, Amortisation und Projektrisiko
+- customer and consulting readiness scoring
+- prioritization of proposal and transformation projects
+- sales-relevant pipeline analysis
+- workshop-oriented recommendations
+- clear communication of business value, payback and project risk
 
-## Funktionsumfang
+## Features
 
-Das CLI liest vier CSV-Datensätze ein und baut daraus eine SQLite-Datenbank. Anschließend bewertet es jede Projektchance nach:
+The CLI reads four CSV datasets and builds a SQLite database. It evaluates every project opportunity by:
 
-- erwartetem Projektwert und Marge
-- monatlich eingesparten manuellen Stunden durch Automatisierung
-- jährlichem Produktivitätswert
-- Amortisationszeit
-- strategischer Kundenpriorität
-- Consulting Fit
-- Kundenbereitschaft
-- technischem und organisatorischem Risiko
+- expected project value and margin
+- monthly manual hours saved through automation
+- annual productivity value
+- payback period
+- strategic customer priority
+- consulting fit
+- customer readiness
+- technical and delivery risk
 
-Aus den Kennzahlen entsteht eine priorisierte Projektliste mit Empfehlungen:
+The result is a prioritized project list with recommendations:
 
 - `Lead project`
 - `Prepare proposal`
 - `Run discovery workshop`
 - `Monitor backlog`
 
-## Schnellstart
+## Quick Start
 
-Projekt aus dem Repository-Root starten:
+Run the project from the repository root:
 
 ```bash
 python3 main.py
 ```
 
-Erwartete Terminalausgabe:
+Expected terminal output:
 
 ```txt
 Commercial IT transformation analysis completed.
@@ -77,30 +77,30 @@ Report: output/reports/transformation_report.txt
 Project scores: output/reports/project_scores.csv
 ```
 
-## Beispiele im Repository
+## Examples
 
-Die Beispielausgaben sind bewusst versioniert, damit Recruiter das Ergebnis direkt auf GitHub prüfen können, ohne das Projekt lokal auszuführen:
+The example outputs are versioned intentionally so recruiters can inspect the result directly on GitHub without running the project locally:
 
-- [Terminal-Mitschnitt](examples/terminal_output.txt)
-- [Beispielreport](examples/transformation_report_sample.txt)
+- [Terminal output](examples/terminal_output.txt)
+- [Sample transformation report](examples/transformation_report_sample.txt)
 
-Der Terminal-Mitschnitt zeigt den Start des CLI und den Unit-Test-Lauf.
+The terminal output shows the CLI run and the unit test run.
 
-Tests ausführen:
+Run tests:
 
 ```bash
 python3 -m unittest
 ```
 
-Deterministische Beispieldaten neu erzeugen:
+Regenerate deterministic sample data:
 
 ```bash
 python3 scripts/generate_sample_data.py
 ```
 
-## Erzeugte Dateien
+## Generated Files
 
-Beim Start mit `python3 main.py` entstehen:
+Running `python3 main.py` creates:
 
 ```txt
 output/reports/commercial_it.db
@@ -108,9 +108,9 @@ output/reports/transformation_report.txt
 output/reports/project_scores.csv
 ```
 
-Diese Dateien sind generiert und werden nicht versioniert. Ein versioniertes Beispiel für den Report liegt unter [examples/transformation_report_sample.txt](examples/transformation_report_sample.txt).
+These generated files are ignored by Git. A versioned sample report is available at [examples/transformation_report_sample.txt](examples/transformation_report_sample.txt).
 
-## Projektstruktur
+## Project Structure
 
 ```txt
 .
@@ -127,8 +127,9 @@ Diese Dateien sind generiert und werden nicht versioniert. Ein versioniertes Bei
 ├── docs/
 │   ├── application_fit.md
 │   ├── data_dictionary.md
-│   └── recruiter_summary_de.md
+│   └── recruiter_summary.md
 ├── examples/
+│   ├── README.md
 │   ├── terminal_output.txt
 │   └── transformation_report_sample.txt
 ├── scripts/
@@ -137,35 +138,35 @@ Diese Dateien sind generiert und werden nicht versioniert. Ein versioniertes Bei
     └── test_analysis.py
 ```
 
-## Datenqualität
+## Data Quality
 
-Die Daten sind fiktiv und können sicher veröffentlicht werden. Sie werden mit einem festen Random Seed in `scripts/generate_sample_data.py` erzeugt, sodass der Beispieldatensatz reproduzierbar bleibt.
+The data is fictional and safe to publish. It is generated with a fixed random seed in `scripts/generate_sample_data.py`, so the sample dataset is reproducible.
 
-Die Daten sind so aufgebaut, dass sie realistische Commercial-IT- und Consulting-Szenarien abbilden:
+The dataset is designed to resemble realistic Commercial IT and consulting scenarios:
 
-- verschiedene Branchen und Regionen
-- kundenspezifische Systemzahlen und Umsatzklassen
-- Projektkategorien wie ERP & Data, Commercial IT, Sales Enablement und Process Digitization
-- monatliche Service-KPIs über ein volles Jahr
-- Workshop-Felder wie Stakeholder-Anzahl, Anforderungsklarheit und kommerzielle Dringlichkeit
+- multiple industries and regions
+- customer-specific system counts and revenue bands
+- project categories such as ERP & Data, Commercial IT, Sales Enablement and Process Digitization
+- monthly service KPIs over a full year
+- workshop fields such as stakeholder count, requirements clarity and commercial urgency
 
-## Wichtigste Ergebnisse
+## Main Outputs
 
-Der Textreport liefert:
+The text report provides:
 
-- Portfolio-KPI-Zusammenfassung
-- Verteilung der Handlungsempfehlungen
-- Pipeline-Sicht nach Projektkategorie
-- Top-Projektvorschläge
-- Service-Risiko-Sicht
-- Bewerbungsbezug zu Bosch und Fujitsu
+- portfolio KPI summary
+- recommendation distribution
+- category-level pipeline summary
+- top project recommendations
+- service risk view
+- application relevance for Bosch and Fujitsu
 
-Die CSV-Scoring-Tabelle eignet sich zusätzlich für eine Weiterverarbeitung in Excel oder Power-BI-ähnlichen Auswertungen.
+The CSV scoring table can be reused for spreadsheet or Power BI-style analysis.
 
-## Bewerbungssatz
+## Application Statement
 
-Als Bewerberprojekt habe ich einen Commercial IT Transformation Analyzer entwickelt. Das Python-Tool verarbeitet einen realistischen synthetischen Datensatz mit Kunden-, Projekt-, Workshop- und Servicedaten, speichert ihn in einer SQLite-Datenbank und berechnet Kennzahlen wie Projektwert, Marge, Amortisationszeit, Produktivitätsgewinn und SLA-Risiko. Daraus entstehen ein Textreport und eine CSV-Auswertung. Das Projekt verbindet Informatik, BWL, Datenanalyse, Prozessdigitalisierung und Sales-/Consulting-orientiertes Denken.
+As an application project, I built a Commercial IT Transformation Analyzer. The Python tool processes a realistic synthetic dataset with customer, project, workshop and service data, stores it in a SQLite database and calculates KPIs such as project value, margin, payback period, productivity gain and SLA risk. It generates a text report and a CSV evaluation. The project connects computer science, business administration, data analysis, process digitization and sales-/consulting-oriented thinking.
 
-## Autor
+## Author
 
 Johannes Maboudou

@@ -28,6 +28,6 @@ This project maps to those points through:
 - structured recommendations for workshops and sales conversations
 - a customer-facing report and project scoring concept
 
-## Short German Application Text
+## Short Application Text
 
-Als Bewerberprojekt habe ich einen Commercial IT Transformation Analyzer entwickelt. Das Python-Tool verarbeitet einen realistischen synthetischen Datensatz mit Kunden-, Projekt-, Workshop- und Servicedaten, speichert ihn in einer SQLite-Datenbank und berechnet Kennzahlen wie Projektwert, Marge, Amortisationszeit, Produktivitätsgewinn und SLA-Risiko. Daraus entstehen ein Textreport und eine CSV-Auswertung. Das Projekt verbindet Informatik, BWL, Datenanalyse, Prozessdigitalisierung und Sales-/Consulting-orientiertes Denken.
+As an application project, I built a Commercial IT Transformation Analyzer. The Python tool processes a realistic synthetic dataset with customer, project, workshop and service data, stores it in a SQLite database and calculates KPIs such as project value, margin, payback period, productivity gain and SLA risk. It generates a text report and a CSV evaluation. The project connects computer science, business administration, data analysis, process digitization and sales-/consulting-oriented thinking.
