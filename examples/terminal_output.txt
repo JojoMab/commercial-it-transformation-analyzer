@@ -1,14 +1,1 @@
-$ python3 main.py
-Commercial IT transformation analysis completed.
-Projects analyzed: 72
-Pipeline value: 7,191,000.00 EUR
-Annual productivity value: 2,858,611.20 EUR
-Report: output/reports/transformation_report.txt
-Project scores: output/reports/project_scores.csv
-
-$ python3 -m unittest
-.
-----------------------------------------------------------------------
-Ran 1 test in 0.007s
-
-OK
+Report generated successfully.

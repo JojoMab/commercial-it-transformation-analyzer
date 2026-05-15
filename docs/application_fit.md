@@ -1,33 +1,19 @@
 # Application Fit
 
-## Bosch Building Technologies
+## Projektziel
 
-The Bosch role highlights Wirtschaftsinformatik, Business Engineering, Commercial IT projects, Power BI-style transparency for productivity and value creation, ERP/database systems and workflow digitization.
+Python-Projekt zur KPI-basierten Bewertung synthetischer Digitalisierungs- und IT-Transformationsprojekte.
 
-This project maps to those points through:
+## Geeignete Zielunternehmen
 
-- SQLite database usage
-- structured CSV data processing
-- productivity and value creation KPIs
-- a realistic synthetic data set with 24 customers, 72 project opportunities and 288 monthly service rows
-- project and service reporting
-- workflow digitization examples for security and building service contexts
-- CSV output that can be reused as a Power BI or spreadsheet concept
+| Unternehmen | Warum das Projekt passt | Gezeigte Skills | Empfohlene Praesentation |
+| --- | --- | --- | --- |
+| Bosch | Prozessdigitalisierung, KPI-Auswertung, Servicequalitaet | Python, Reporting, Scoring | Als Wirtschaftsinformatik-/Business-Engineering-Projekt praesentieren |
+| metafinanz | Consulting, Automatisierung, Entscheidungsgrundlagen | Python, KPI, Management Summary | Als Business-/IT-Consulting-Projekt praesentieren |
+| Deloitte | IT-Prozessanalyse, Statusreporting, Kundenkommunikation | Reporting, Ampellogik | Als Consulting-Projekt praesentieren |
+| CANCOM | IT-Loesungsdesign, Aufwandsschaetzung, Kundensicht | Scoring, Kosten-/Nutzenbewertung | Als Loesungsdesign-Projekt praesentieren |
+| EY / Telekom | Digitalisierung und IT-Projektarbeit | Python, Dokumentation, CI | Als Wirtschaftsinformatik-Projekt praesentieren |
 
-## Fujitsu Sales & Consulting
+## Level-Einschaetzung
 
-The Fujitsu role highlights digital transformation, Sales & Consulting, customer workshops, proposal processes, technical and economic processes, and ownership of IT projects.
-
-This project maps to those points through:
-
-- consulting readiness scoring
-- proposal and project prioritization
-- customer service risk analysis
-- realistic sales and workshop fields such as stakeholders, requirements clarity, readiness and commercial urgency
-- business value and payback calculation
-- structured recommendations for workshops and sales conversations
-- a customer-facing report and project scoring concept
-
-## Short Application Text
-
-As an application project, I built a Commercial IT Transformation Analyzer. The Python tool processes a realistic synthetic dataset with customer, project, workshop and service data, stores it in a SQLite database and calculates KPIs such as project value, margin, payback period, productivity gain and SLA risk. It generates a text report and a CSV evaluation. The project connects computer science, business administration, data analysis, process digitization and sales-/consulting-oriented thinking.
+Level 2: bewerberfaehig. Das Projekt hat eine klare Problemstellung, synthetische Daten, Tests, CI und eine recruiterfreundliche Dokumentation.
