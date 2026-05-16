@@ -1,67 +1,72 @@
 # Commercial IT Transformation Analyzer
 
-Python-Projekt zur KPI-basierten Bewertung synthetischer Digitalisierungs- und IT-Transformationsprojekte.
+![Python CI](https://github.com/JojoMab/commercial-it-transformation-analyzer/actions/workflows/python-ci.yml/badge.svg)
 
-## Kurzprofil fuer Recruiter
+Dieses Bewerberprojekt analysiert synthetische Kunden-, Projekt-, Workshop- und Servicedaten. Es verbindet Wirtschaftsinformatik, KPI-Auswertung, SQLite, Projektpriorisierung, Ampellogik und Management Summary.
 
-Dieses Repository ist ein Bewerberprojekt fuer duale Studiengaenge in Wirtschaftsinformatik, Informatik, Data Science und KI-nahen Themen. Es nutzt synthetische Daten, eine bewusst einfache Projektstruktur und nachvollziehbare Reports, damit fachliche und technische Grundlagen schnell erkennbar sind.
+## Bewerbungskontext
 
-## Bewerbungsbezug
-
-Das Projekt verbindet Prozessdigitalisierung, KPI-Auswertung, Projektpriorisierung, Statusreporting und Management Summary auf Bewerberniveau.
-
-## Passende Zielunternehmen
-
-Bosch, metafinanz, Deloitte, CANCOM, EY, Telekom, ADAC, Atos und Wirtschaftsinformatik allgemein.
+Das Projekt passt zu dualen Studiengängen in Wirtschaftsinformatik, Business Information Systems und Informatik mit Consulting-Bezug. Es ist relevant für Bosch, Deloitte, metafinanz, CANCOM, Fujitsu, ADAC, EY und Telekom.
 
 ## Tech Stack
 
-- Python 3
-- CSV-Verarbeitung
-- regelbasierte Analyse und einfache Kennzahlen
-- Unit Tests mit unittest
-- GitHub Actions CI
+- Python 3.11
+- SQLite
+- CSV-Daten
+- KPI-Scoring
+- Unit Tests
+- GitHub Actions
 
 ## Funktionen
 
-- synthetische CSV-Daten laden
-- Eingabedaten validieren
-- Kennzahlen berechnen
-- Risiken oder Prioritaeten einstufen
-- Report als Text ausgeben
-- Beispielausgabe versionieren
+- synthetische Projektdaten in SQLite laden
+- KPI- und Service-Risiken auswerten
+- Projektprioritäten berechnen
+- Ampelstatus ROT/GELB/GRÜN ableiten
+- Management Summary als TXT erzeugen
+- Tests für Scoring und KPI-Auswertung ausführen
 
 ## Projektstruktur
 
 ```txt
 commercial-it-transformation-analyzer/
 ├── main.py
+├── commercial_it_analyzer/
+│   ├── analysis.py
+│   ├── storage.py
+│   ├── report.py
+│   ├── project_analyzer.py
+│   ├── kpi_evaluator.py
+│   └── report_generator.py
 ├── data/
-├── docs/
-│   ├── application_fit.md
-│   └── recruiter_summary_de.md
-├── examples/
-│   └── terminal_output.txt
 ├── tests/
-└── .github/workflows/python-ci.yml
+└── docs/
 ```
 
 ## Schnellstart
 
 ```bash
-python3 main.py
+python main.py
 ```
 
 ## Tests
 
 ```bash
-python3 -m unittest discover -s tests
+python -m unittest discover -s tests -v
 ```
 
-## Hinweis
+## Beispielausgabe
 
-Alle Daten sind synthetisch. Das Projekt bildet kein echtes Unternehmenssystem ab und behauptet keine echte Praxiserfahrung.
+```txt
+Commercial IT transformation analysis completed.
+Projects analyzed: 72
+Pipeline value: 7,191,000.00 EUR
+```
+
+## Hinweis auf synthetische Daten
+
+Alle Kunden-, Projekt- und Servicedaten sind synthetisch. Das Projekt ist eine Bewerberprojekt-Simulation und verwendet keine echten Unternehmensdaten.
 
 ## English Summary
 
-Applicant portfolio project using synthetic data to demonstrate basic software structure, data processing, reporting and business/IT understanding.
+This project demonstrates business information systems fundamentals with synthetic transformation project data. It combines SQLite, KPI analysis, project scoring, traffic-light status logic and management reporting.
