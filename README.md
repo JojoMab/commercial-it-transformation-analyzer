@@ -1,6 +1,6 @@
-# Commercial IT Transformation Analyzer
-
 ![Python CI](https://github.com/JojoMab/commercial-it-transformation-analyzer/actions/workflows/python-ci.yml/badge.svg)
+
+# Commercial IT Transformation Analyzer
 
 Dieses Bewerberprojekt analysiert synthetische Kunden-, Projekt-, Workshop- und Servicedaten. Es verbindet Wirtschaftsinformatik, KPI-Auswertung, SQLite, Projektpriorisierung, Ampellogik und Management Summary.
 
@@ -49,7 +49,7 @@ commercial-it-transformation-analyzer/
 python main.py
 ```
 
-## Tests
+## Tests ausführen
 
 ```bash
 python -m unittest discover -s tests -v
@@ -65,7 +65,7 @@ Pipeline value: 7,191,000.00 EUR
 
 ## Hinweis auf synthetische Daten
 
-Alle Kunden-, Projekt- und Servicedaten sind synthetisch. Das Projekt ist eine Bewerberprojekt-Simulation und verwendet keine echten Unternehmensdaten.
+Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 ## English Summary
 

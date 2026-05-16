@@ -5,3 +5,14 @@ __pycache__/
 output/reports/*
 !output/reports/.gitkeep
 
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+charts/
+reports/
+data/*.db
