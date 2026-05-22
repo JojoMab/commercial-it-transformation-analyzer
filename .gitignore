@@ -12,7 +12,14 @@ output/reports/*
 dist/
 build/
 .env
+.venv/
 venv/
 charts/
 reports/
 data/*.db
+*.db
+*.sqlite
+*.joblib
+*.pkl
+.mypy_cache/
+.ruff_cache/

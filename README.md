@@ -36,8 +36,7 @@ commercial-it-transformation-analyzer/
 │   ├── storage.py
 │   ├── report.py
 │   ├── project_analyzer.py
-│   ├── kpi_evaluator.py
-│   └── report_generator.py
+│   └── kpi_evaluator.py
 ├── data/
 ├── tests/
 └── docs/
@@ -46,13 +45,14 @@ commercial-it-transformation-analyzer/
 ## Schnellstart
 
 ```bash
+python -m pip install -r requirements.txt
 python main.py
 ```
 
 ## Tests ausführen
 
 ```bash
-python -m unittest discover -s tests -v
+python -m pytest tests/ -v
 ```
 
 ## Beispielausgabe
@@ -66,6 +66,8 @@ Pipeline value: 7,191,000.00 EUR
 ## Hinweis auf synthetische Daten
 
 Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
+
+Dieses Projekt ist ein Bewerberprojekt und nicht für den produktiven Einsatz vorgesehen.
 
 ## English Summary
 
