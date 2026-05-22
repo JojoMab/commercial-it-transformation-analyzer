@@ -8,7 +8,7 @@ Dieses Bewerberprojekt analysiert synthetische Kunden-, Projekt-, Workshop- und 
 
 Das Projekt passt zu dualen Studiengängen in Wirtschaftsinformatik, Business Information Systems und Informatik mit Consulting-Bezug. Es ist relevant für Bosch, Deloitte, metafinanz, CANCOM, Fujitsu, ADAC, EY und Telekom.
 
-## Tech Stack
+## Technologie-Stack
 
 - Python 3.11
 - SQLite
@@ -69,6 +69,6 @@ Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 Dieses Projekt ist ein Bewerberprojekt und nicht für den produktiven Einsatz vorgesehen.
 
-## English Summary
+## Kurzfassung
 
-This project demonstrates business information systems fundamentals with synthetic transformation project data. It combines SQLite, KPI analysis, project scoring, traffic-light status logic and management reporting.
+Dieses Projekt zeigt Grundlagen der Wirtschaftsinformatik anhand synthetischer Transformations- und Projektdaten. Es verbindet SQLite, KPI-Auswertung, Projektbewertung, Ampellogik und Management-Reporting in einem kompakten Python-Projekt.
